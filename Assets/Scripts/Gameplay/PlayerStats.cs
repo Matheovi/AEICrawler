@@ -14,6 +14,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int maxMana;
     [SerializeField] Sprite playerBattleImage;
 
+    [SerializeField] List<MoveBase> moves;
+
     public static PlayerStats Instance { get; private set; }
     private void Awake()
     {
@@ -25,6 +27,7 @@ public class PlayerStats : MonoBehaviour
     public int MaxHealth => maxHealth;
     public int Mana => mana;
     public int MaxMana => maxMana;
+    public List<MoveBase> Move => moves;
 
     public Sprite PlayerImage => playerBattleImage;
 
@@ -35,6 +38,16 @@ public class PlayerStats : MonoBehaviour
         {
             health = maxHealth;
         }
+    }
+
+    public bool GetDamage(int amount)
+    {
+        health -= amount;
+        if(health <= 0)
+        {
+            return true;
+        }
+        else return false;
     }
 
     public void AddMP(int amount)

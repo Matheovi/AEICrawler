@@ -22,8 +22,6 @@ public class BossBase : ScriptableObject
     [SerializeField] Sprite bossNPCSprite;
     [SerializeField] Sprite bossBattleImage;
 
-    public int current_health;
-
     
 
     [SerializeField] List<AttackBase> possibleAttacks;
@@ -32,17 +30,7 @@ public class BossBase : ScriptableObject
     public Sprite NPCSprite => bossNPCSprite;
     public Sprite BattleImage => bossBattleImage;
 
-    
-    
-
-    public void Attack()
-    {
-        throw new NotImplementedException();
-    }
+    public List<AttackBase> PossibleAttacks => possibleAttacks;
 
 
-    public void Start()
-    {
-        current_health = maxHealth;
-    }
 }

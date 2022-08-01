@@ -30,6 +30,8 @@ public class BattleSystem : MonoBehaviour
 
     public BattleState battleState;
 
+    MoveBase selectedMove;
+
     public void Start()
     {
         SetupBattle();
@@ -61,15 +63,15 @@ public class BattleSystem : MonoBehaviour
         }
         else if (battleState == BattleState.PLAYER_TURN)
         {
-            //HandlePlayerTurn();
+            HandlePlayerTurn();
         }
         else if (battleState == BattleState.ENEMY_TURN)
         {
-            //HandleEnemyTurn();
+            HandleEnemyTurn();
         }
         else if (battleState == BattleState.WON)
         {
-            //HandleWin();
+            HandleWin();
         }
         else if (battleState == BattleState.LOST)
         {
@@ -94,8 +96,18 @@ public class BattleSystem : MonoBehaviour
 
    
 
+    void PlayerTurn()
+    {
+        battleState = BattleState.PLAYER_TURN;
+        battleDialogBox.EnableMoveSelector(false);
+        battleDialogBox.EnableDialogText(true);
+        battleDialogBox.EnableMoveSelector(false);
+    }
 
-
+    void EnemyTurn()
+    {
+        battleState = BattleState.ENEMY_TURN;
+    }
     
 
     void HandleActionSelection()
@@ -115,6 +127,7 @@ public class BattleSystem : MonoBehaviour
             //Fight
             if (battleDialogBox.GetChoice() == 0)
             {
+                battleDialogBox.UpdateMoveTexts();
                 MoveSelection();
             }
             //Run
@@ -144,24 +157,47 @@ public class BattleSystem : MonoBehaviour
             if (battleDialogBox.GetChoice() == 0)
             {
                 Debug.Log("Move1 TODO");
-                //Do move
-                //MoveSelection();
-            }
-            //Run
-            else if (battleDialogBox.GetChoice() == 1)
-            {
-                Debug.Log("Move2 TODO");
-            }
-            else if (battleDialogBox.GetChoice() == 2)
-            {
-                Debug.Log("Back");
-                ActionSelection();
+                selectedMove = PlayerStats.Instance.Move[battleDialogBox.GetChoice()];
+                PlayerTurn();
             }
 
         }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ActionSelection();
+        }
     }
 
+    void HandlePlayerTurn()
+    {
+        int damageToDeal = selectedMove.Damage; 
+        if(boss.GetDamage(damageToDeal))
+        {
+            battleState = BattleState.WON;
+        }
+        EnemyTurn();
+    }
     
+    void HandleEnemyTurn()
+    {
+        AttackBase chosenAttack = boss.Attack();
+        int damageToDeal = chosenAttack.Damage;
+        //Sprite attackSprite = chosenAttack.AttackSprite;
+
+        if(PlayerStats.Instance.GetDamage(damageToDeal))
+        {
+            battleState = BattleState.LOST;
+        }
+        ActionSelection();
+    }
+
+    void HandleWin()
+    {
+        Debug.Log("Win!!!!!");
+
+        OnBattleQuit();
+    }
+
     public void SetBossData(Boss bossg)
     {
         boss = bossg;

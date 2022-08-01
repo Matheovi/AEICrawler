@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Boss : MonoBehaviour, Interactable
+public class Boss : MonoBehaviour
 {
 
 
@@ -18,6 +18,7 @@ public class Boss : MonoBehaviour, Interactable
 
     public int current_health;
     
+    List<AttackBase> possibleAttacks;
     SpriteRenderer sprite_renderer;
 
     public string Name => bossName;
@@ -26,15 +27,6 @@ public class Boss : MonoBehaviour, Interactable
     public Sprite BattleImage => bossBattleImage;
 
     
-    public IEnumerator Interact(Transform initiator)
-    {
-
-        yield return new WaitForSeconds(1);
-        if (current_health > 0)
-        {
-            current_health -= 10;
-        }
-    }
 
     public void Awake()
     {
@@ -53,13 +45,28 @@ public class Boss : MonoBehaviour, Interactable
         transform.localScale = new Vector3(1,1,1);
         //sprite_renderer.enabled = true;
         gameObject.GetComponent<BoxCollider2D>().size = sprite_renderer.sprite.bounds.size;
-
+        possibleAttacks = boss.PossibleAttacks;
 
     }
 
-    public void Attack()
+    public AttackBase Attack()
     {
-        throw new NotImplementedException();
+        if(possibleAttacks.Count > 0)
+        {
+            AttackBase chosenAttack = possibleAttacks.PickRandom();
+            return chosenAttack;
+        }
+        else return default(AttackBase);
+    }
+
+    public bool GetDamage(int amount)
+    {
+        current_health -= amount;
+        if(current_health < 0)
+        {
+            return true;
+        }
+        else return false;
     }
 }
 

@@ -92,4 +92,13 @@ public class BattleDialogBox : MonoBehaviour
         moveSelector.SetActive(enabled);
     }
 
+    public void UpdateMoveTexts()
+    {
+        int i = 0;
+      foreach(MoveBase move in PlayerStats.Instance.Move)
+      {
+        moveText[i].text = move.Name;
+        i++;
+      }
+    }
 }
