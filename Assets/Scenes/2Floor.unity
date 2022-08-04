@@ -132,12 +132,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 787569225832462684, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.29
+      value: -10.88
       objectReference: {fileID: 0}
     - target: {fileID: 3919717801757448184, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
       propertyPath: sceneToLoad
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4557241794885239019, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 4896794479176497367, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
       propertyPath: m_TileSpriteArray.Array.data[26].m_Data
       value: 
@@ -214,6 +218,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900190045940575774, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 6393596622103689485, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
       propertyPath: sceneToLoad
       value: 4

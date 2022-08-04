@@ -174,6 +174,7 @@ public class BattleSystem : MonoBehaviour
         if(boss.GetDamage(damageToDeal))
         {
             battleState = BattleState.WON;
+            return;
         }
         EnemyTurn();
     }
@@ -194,7 +195,8 @@ public class BattleSystem : MonoBehaviour
     void HandleWin()
     {
         Debug.Log("Win!!!!!");
-
+        boss.gameObject.SetActive(false);
+        PlayerStats.Instance.AddECTS(30);
         OnBattleQuit();
     }
 
