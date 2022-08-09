@@ -317,6 +317,7 @@ MonoBehaviour:
   maxHealth: 2700
   mana: 0
   maxMana: 0
+  ectsPoints: 0
   playerBattleImage: {fileID: 21300000, guid: f45031fe342480d4d9fd73a8b8bf877f, type: 3}
   moves:
   - {fileID: 11400000, guid: ff685815698271baabaaae2e6e114edc, type: 2}
@@ -875,6 +876,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231735179055204720, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2245563562975178574, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1158,6 +1183,14 @@ PrefabInstance:
     - target: {fileID: 3269545232073491417, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347827861049199748, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347827861049199748, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3383137150790429388, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
       propertyPath: m_Layer
@@ -1823,6 +1856,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7108040140278194311, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7115504617424213902, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -2315,6 +2352,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3434869974005045959, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
   m_PrefabInstance: {fileID: 7941360154284075079}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5156953959156777753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3000609776789793630, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+  m_PrefabInstance: {fileID: 7941360154284075079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3003407607437615691
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5156953959156777753}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4cd746c874d2ac84185aacdb6cb7ad8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &5929200840693780056 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4358816194494146079, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
