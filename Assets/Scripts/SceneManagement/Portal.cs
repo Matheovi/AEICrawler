@@ -17,13 +17,16 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     }
     public void OnTrigger(PlayerController player)
     {
+        if (isLoading) return;
         this.player = player;
-        if ((amountOfPointsToGo <= PlayerStats.Instance.ECTS) && !isLoading)
-        { 
-            isLoading = !isLoading;
-            StartCoroutine(SwitchScene(player));
+        if (amountOfPointsToGo > PlayerStats.Instance.ECTS)
+        {
+
+            Debug.Log("Not enough ECTS");
         }
-        else Debug.Log("Not enough ECTS");
+        else
+            isLoading = !isLoading;
+        StartCoroutine(SwitchScene(player));
     }
 
 
@@ -31,7 +34,6 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     {
         DontDestroyOnLoad(gameObject);
         yield return fader.FadeIn(0.5f);
-        Debug.Log("dupaaaa");
         yield return SceneManager.LoadSceneAsync(sceneToLoad);
         
         var destination  = FindObjectsOfType<Portal>().First(x=>x!=this);

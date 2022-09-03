@@ -7651,7 +7651,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       17_Visibile_Upstairs_System_32x32_202: -8492027868742132498
-      17_Visibile_Upstairs_System_32x32_134: -1691231410447333395
       17_Visibile_Upstairs_System_32x32_44: 8370572458490995426
       17_Visibile_Upstairs_System_32x32_86: -4293252440123114097
       17_Visibile_Upstairs_System_32x32_247: -5517037438045666717
@@ -7660,6 +7659,7 @@ TextureImporter:
       17_Visibile_Upstairs_System_32x32_272: 7558442015899122677
       17_Visibile_Upstairs_System_32x32_189: -8767464968229168133
       17_Visibile_Upstairs_System_32x32_313: 5093368161522441419
+      17_Visibile_Upstairs_System_32x32_69: 6306616979523128125
       17_Visibile_Upstairs_System_32x32_87: 3681147011958832010
       17_Visibile_Upstairs_System_32x32_252: 3686284302388164790
       17_Visibile_Upstairs_System_32x32_273: -2346868175312387219
@@ -7959,10 +7959,10 @@ TextureImporter:
       17_Visibile_Upstairs_System_32x32_208: -5419611020884176954
       17_Visibile_Upstairs_System_32x32_186: -5161183684345881643
       17_Visibile_Upstairs_System_32x32_92: -3036187937095312186
-      17_Visibile_Upstairs_System_32x32_69: 6306616979523128125
-      17_Visibile_Upstairs_System_32x32_223: 851794854026674967
-      17_Visibile_Upstairs_System_32x32_299: -8443428405590217102
       17_Visibile_Upstairs_System_32x32_89: 5593392635467775788
+      17_Visibile_Upstairs_System_32x32_299: -8443428405590217102
+      17_Visibile_Upstairs_System_32x32_223: 851794854026674967
+      17_Visibile_Upstairs_System_32x32_134: -1691231410447333395
       17_Visibile_Upstairs_System_32x32_109: 3879533627916554831
   spritePackingTag: 
   pSDRemoveMatte: 0

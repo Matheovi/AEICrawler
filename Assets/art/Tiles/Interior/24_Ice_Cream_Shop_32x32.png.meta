@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -4197,15 +4197,15 @@ TextureImporter:
       24_Ice_Cream_Shop_32x32_3: -153196368
       24_Ice_Cream_Shop_32x32_141: 625214706
       24_Ice_Cream_Shop_32x32_95: -594045708
-      24_Ice_Cream_Shop_32x32_118: 797676251
       24_Ice_Cream_Shop_32x32_128: -1122756923
-      24_Ice_Cream_Shop_32x32_59: 2072834241
+      24_Ice_Cream_Shop_32x32_118: 797676251
       24_Ice_Cream_Shop_32x32_143: -1239651358
+      24_Ice_Cream_Shop_32x32_59: 2072834241
+      24_Ice_Cream_Shop_32x32_180: -1196154890
       24_Ice_Cream_Shop_32x32_99: 141268128
       24_Ice_Cream_Shop_32x32_13: 1339971151
       24_Ice_Cream_Shop_32x32_139: -1024368945
       24_Ice_Cream_Shop_32x32_86: -599616990
-      24_Ice_Cream_Shop_32x32_180: -1196154890
       24_Ice_Cream_Shop_32x32_156: 1828463448
       24_Ice_Cream_Shop_32x32_71: 2139495078
       24_Ice_Cream_Shop_32x32_36: 1788369281
@@ -4247,14 +4247,14 @@ TextureImporter:
       24_Ice_Cream_Shop_32x32_185: 161119939
       24_Ice_Cream_Shop_32x32_187: 1695948834
       24_Ice_Cream_Shop_32x32_0: -595636112
-      24_Ice_Cream_Shop_32x32_37: 1437908105
       24_Ice_Cream_Shop_32x32_38: 1454558225
       24_Ice_Cream_Shop_32x32_135: -444676828
       24_Ice_Cream_Shop_32x32_140: -1864397716
+      24_Ice_Cream_Shop_32x32_37: 1437908105
       24_Ice_Cream_Shop_32x32_33: -210791627
       24_Ice_Cream_Shop_32x32_30: -754358853
-      24_Ice_Cream_Shop_32x32_52: -13206602
       24_Ice_Cream_Shop_32x32_103: -1607811132
+      24_Ice_Cream_Shop_32x32_52: -13206602
       24_Ice_Cream_Shop_32x32_137: 859353006
       24_Ice_Cream_Shop_32x32_186: 619514322
       24_Ice_Cream_Shop_32x32_80: 1832485958

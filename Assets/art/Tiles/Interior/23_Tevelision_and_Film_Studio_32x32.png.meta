@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3673,6 +3673,7 @@ TextureImporter:
       23_Tevelision_and_Film_Studio_32x32_25: -861826293
       23_Tevelision_and_Film_Studio_32x32_4: -2035568525
       23_Tevelision_and_Film_Studio_32x32_117: 1337603367
+      23_Tevelision_and_Film_Studio_32x32_159: -1283935766
       23_Tevelision_and_Film_Studio_32x32_69: 1898159362
       23_Tevelision_and_Film_Studio_32x32_1: -2013204125
       23_Tevelision_and_Film_Studio_32x32_82: -532386017
@@ -3684,7 +3685,6 @@ TextureImporter:
       23_Tevelision_and_Film_Studio_32x32_151: -2056611033
       23_Tevelision_and_Film_Studio_32x32_3: 1790489536
       23_Tevelision_and_Film_Studio_32x32_157: -502997317
-      23_Tevelision_and_Film_Studio_32x32_159: -1283935766
       23_Tevelision_and_Film_Studio_32x32_32: 193159800
       23_Tevelision_and_Film_Studio_32x32_162: -1776843314
       23_Tevelision_and_Film_Studio_32x32_42: 431503910

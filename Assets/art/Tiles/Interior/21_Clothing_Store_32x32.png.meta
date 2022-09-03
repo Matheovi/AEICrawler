@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -20199,8 +20199,8 @@ TextureImporter:
       21_Clothing_Store_32x32_217: -253080228
       21_Clothing_Store_32x32_562: -1369186986
       21_Clothing_Store_32x32_255: 668161491
-      21_Clothing_Store_32x32_557: 1785753090
       21_Clothing_Store_32x32_604: -440139749
+      21_Clothing_Store_32x32_557: 1785753090
       21_Clothing_Store_32x32_850: 1887630518
       21_Clothing_Store_32x32_837: -1707767333
       21_Clothing_Store_32x32_92: -111866617
@@ -20209,34 +20209,34 @@ TextureImporter:
       21_Clothing_Store_32x32_661: 1033961545
       21_Clothing_Store_32x32_775: 488856342
       21_Clothing_Store_32x32_358: 1710279755
-      21_Clothing_Store_32x32_224: 716797469
       21_Clothing_Store_32x32_938: -827530576
+      21_Clothing_Store_32x32_224: 716797469
       21_Clothing_Store_32x32_274: -1905399470
       21_Clothing_Store_32x32_96: -411339394
       21_Clothing_Store_32x32_741: -564838767
       21_Clothing_Store_32x32_780: 360281715
-      21_Clothing_Store_32x32_931: 1383887659
       21_Clothing_Store_32x32_948: 75470528
+      21_Clothing_Store_32x32_931: 1383887659
       21_Clothing_Store_32x32_663: -2019257606
-      21_Clothing_Store_32x32_748: -1364879074
       21_Clothing_Store_32x32_758: 1442743338
-      21_Clothing_Store_32x32_842: -762513241
+      21_Clothing_Store_32x32_748: -1364879074
       21_Clothing_Store_32x32_51: 1309292872
       21_Clothing_Store_32x32_5: -1886716865
       21_Clothing_Store_32x32_395: 1822106197
       21_Clothing_Store_32x32_235: 722741701
       21_Clothing_Store_32x32_48: -5278845
       21_Clothing_Store_32x32_815: 113783003
-      21_Clothing_Store_32x32_876: 378216905
+      21_Clothing_Store_32x32_842: -762513241
       21_Clothing_Store_32x32_264: -411062893
+      21_Clothing_Store_32x32_876: 378216905
       21_Clothing_Store_32x32_619: 1901112852
       21_Clothing_Store_32x32_943: -1750685745
       21_Clothing_Store_32x32_396: 924956684
       21_Clothing_Store_32x32_760: 333173211
       21_Clothing_Store_32x32_233: 2001701019
       21_Clothing_Store_32x32_623: 1381704672
-      21_Clothing_Store_32x32_714: -1403523943
       21_Clothing_Store_32x32_864: 1112619544
+      21_Clothing_Store_32x32_714: -1403523943
       21_Clothing_Store_32x32_530: 1492475866
       21_Clothing_Store_32x32_112: 641702507
       21_Clothing_Store_32x32_950: -2132197189
@@ -20244,8 +20244,8 @@ TextureImporter:
       21_Clothing_Store_32x32_105: 857820419
       21_Clothing_Store_32x32_170: 1628916013
       21_Clothing_Store_32x32_660: -906241500
-      21_Clothing_Store_32x32_902: -1113202910
       21_Clothing_Store_32x32_939: -532017622
+      21_Clothing_Store_32x32_902: -1113202910
       21_Clothing_Store_32x32_86: -1928005765
       21_Clothing_Store_32x32_431: -1413494955
       21_Clothing_Store_32x32_468: 1826364089
@@ -20428,8 +20428,8 @@ TextureImporter:
       21_Clothing_Store_32x32_795: 1162700931
       21_Clothing_Store_32x32_216: -1480324094
       21_Clothing_Store_32x32_414: -1751899780
-      21_Clothing_Store_32x32_608: 859013106
       21_Clothing_Store_32x32_612: -1732130479
+      21_Clothing_Store_32x32_608: 859013106
       21_Clothing_Store_32x32_630: 2002964468
       21_Clothing_Store_32x32_410: -69279849
       21_Clothing_Store_32x32_418: -1025612346
@@ -20554,9 +20554,9 @@ TextureImporter:
       21_Clothing_Store_32x32_88: -1985365485
       21_Clothing_Store_32x32_668: 1138045172
       21_Clothing_Store_32x32_346: -1761956088
+      21_Clothing_Store_32x32_935: 2140658863
       21_Clothing_Store_32x32_848: -52382645
       21_Clothing_Store_32x32_198: 926838428
-      21_Clothing_Store_32x32_935: 2140658863
       21_Clothing_Store_32x32_613: 1116821619
       21_Clothing_Store_32x32_258: 1194299618
       21_Clothing_Store_32x32_476: -1553096190
@@ -20584,8 +20584,8 @@ TextureImporter:
       21_Clothing_Store_32x32_930: 490768816
       21_Clothing_Store_32x32_355: -1735355149
       21_Clothing_Store_32x32_1: 1843572122
-      21_Clothing_Store_32x32_14: -1065052810
       21_Clothing_Store_32x32_197: -666290174
+      21_Clothing_Store_32x32_14: -1065052810
       21_Clothing_Store_32x32_877: 1938542268
       21_Clothing_Store_32x32_889: 1161776806
       21_Clothing_Store_32x32_72: -1377763286
@@ -20609,8 +20609,8 @@ TextureImporter:
       21_Clothing_Store_32x32_753: -1072635431
       21_Clothing_Store_32x32_439: 1893538173
       21_Clothing_Store_32x32_40: 1374926567
-      21_Clothing_Store_32x32_710: 300245775
       21_Clothing_Store_32x32_910: -1504421473
+      21_Clothing_Store_32x32_710: 300245775
       21_Clothing_Store_32x32_325: -1896905524
       21_Clothing_Store_32x32_516: -322998924
       21_Clothing_Store_32x32_340: -1021847562
@@ -20735,10 +20735,10 @@ TextureImporter:
       21_Clothing_Store_32x32_33: -902507151
       21_Clothing_Store_32x32_171: -275263345
       21_Clothing_Store_32x32_680: 1975507186
-      21_Clothing_Store_32x32_689: 68368489
+      21_Clothing_Store_32x32_771: -805323676
       21_Clothing_Store_32x32_371: -93595578
       21_Clothing_Store_32x32_25: 559750439
-      21_Clothing_Store_32x32_771: -805323676
+      21_Clothing_Store_32x32_689: 68368489
       21_Clothing_Store_32x32_49: -1114840194
       21_Clothing_Store_32x32_178: -1631020433
       21_Clothing_Store_32x32_697: 264500611
@@ -20765,8 +20765,8 @@ TextureImporter:
       21_Clothing_Store_32x32_626: 1639579833
       21_Clothing_Store_32x32_866: 1027767465
       21_Clothing_Store_32x32_354: 1200757222
-      21_Clothing_Store_32x32_189: 1446334957
       21_Clothing_Store_32x32_915: -614232803
+      21_Clothing_Store_32x32_189: 1446334957
       21_Clothing_Store_32x32_135: -299167838
       21_Clothing_Store_32x32_290: 1385586004
       21_Clothing_Store_32x32_813: -1192356652

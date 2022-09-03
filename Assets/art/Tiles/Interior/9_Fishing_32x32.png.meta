@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -7610,6 +7610,7 @@ TextureImporter:
       9_Fishing_32x32_148: -2065670593
       9_Fishing_32x32_138: 1873217071
       9_Fishing_32x32_34: 1651245705
+      9_Fishing_32x32_347: -686865344
       9_Fishing_32x32_31: -364122440
       9_Fishing_32x32_57: 2060741461
       9_Fishing_32x32_196: -422117667
@@ -7618,7 +7619,6 @@ TextureImporter:
       9_Fishing_32x32_157: 839303269
       9_Fishing_32x32_41: 2074422362
       9_Fishing_32x32_132: 529946346
-      9_Fishing_32x32_347: -686865344
       9_Fishing_32x32_111: -1798177188
       9_Fishing_32x32_121: 440911946
       9_Fishing_32x32_189: -869567815
@@ -7774,9 +7774,9 @@ TextureImporter:
       9_Fishing_32x32_123: -1199657013
       9_Fishing_32x32_343: -1498620841
       9_Fishing_32x32_83: 146324912
-      9_Fishing_32x32_177: 158789670
       9_Fishing_32x32_248: 2106793858
       9_Fishing_32x32_320: 2001809608
+      9_Fishing_32x32_177: 158789670
       9_Fishing_32x32_102: -2088068187
       9_Fishing_32x32_106: 1377875152
       9_Fishing_32x32_319: 1380376539
@@ -7813,11 +7813,11 @@ TextureImporter:
       9_Fishing_32x32_88: 1869450286
       9_Fishing_32x32_87: 904647483
       9_Fishing_32x32_274: -987022895
-      9_Fishing_32x32_212: -387217530
+      9_Fishing_32x32_311: -1988226290
       9_Fishing_32x32_279: 1239091528
       9_Fishing_32x32_159: 445098200
       9_Fishing_32x32_36: -1769803219
-      9_Fishing_32x32_311: -1988226290
+      9_Fishing_32x32_212: -387217530
       9_Fishing_32x32_344: -358736487
       9_Fishing_32x32_224: -1837280126
       9_Fishing_32x32_348: -1977429958
@@ -7896,11 +7896,11 @@ TextureImporter:
       9_Fishing_32x32_243: -231846458
       9_Fishing_32x32_125: -276951811
       9_Fishing_32x32_13: 182512614
-      9_Fishing_32x32_150: -1607609204
-      9_Fishing_32x32_154: -2094782436
       9_Fishing_32x32_170: 716673602
-      9_Fishing_32x32_322: 1873009246
+      9_Fishing_32x32_154: -2094782436
+      9_Fishing_32x32_150: -1607609204
       9_Fishing_32x32_330: -17732527
+      9_Fishing_32x32_322: 1873009246
       9_Fishing_32x32_184: 1739768546
       9_Fishing_32x32_23: 1381281942
       9_Fishing_32x32_263: -1371899608

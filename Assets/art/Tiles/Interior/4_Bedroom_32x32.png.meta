@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -31517,9 +31517,9 @@ TextureImporter:
       4_Bedroom_32x32_782: 597545114
       4_Bedroom_32x32_815: 1928151217
       4_Bedroom_32x32_481: -625509349
+      4_Bedroom_32x32_284: -209249844
       4_Bedroom_32x32_943: -206639890
       4_Bedroom_32x32_1319: 1916174376
-      4_Bedroom_32x32_284: -209249844
       4_Bedroom_32x32_1348: 448017079
       4_Bedroom_32x32_1062: -1660653084
       4_Bedroom_32x32_425: 2140846649

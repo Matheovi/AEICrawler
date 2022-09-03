@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -12339,19 +12339,18 @@ TextureImporter:
       2_LivingRoom_32x32_530: 1875699986
       2_LivingRoom_32x32_260: -1911201365
       2_LivingRoom_32x32_203: 327728739
+      2_LivingRoom_32x32_548: -1179914411
       2_LivingRoom_32x32_358: 718526085
-      2_LivingRoom_32x32_195: 2048684333
       2_LivingRoom_32x32_185: 1111449095
+      2_LivingRoom_32x32_195: 2048684333
       2_LivingRoom_32x32_194: 1888245863
-      2_LivingRoom_32x32_317: -1953566081
       2_LivingRoom_32x32_357: -1031934439
+      2_LivingRoom_32x32_317: -1953566081
+      2_LivingRoom_32x32_366: 1800979651
+      2_LivingRoom_32x32_418: -1278987525
       2_LivingRoom_32x32_463: -554590997
       2_LivingRoom_32x32_446: 742138274
-      2_LivingRoom_32x32_366: 1800979651
-      2_LivingRoom_32x32_243: 520306416
-      2_LivingRoom_32x32_418: -1278987525
       2_LivingRoom_32x32_145: 1115801933
-      2_LivingRoom_32x32_548: -1179914411
       2_LivingRoom_32x32_13: 2024379100
       2_LivingRoom_32x32_24: 889968397
       2_LivingRoom_32x32_330: -897563783
@@ -12360,11 +12359,12 @@ TextureImporter:
       2_LivingRoom_32x32_404: -1277312878
       2_LivingRoom_32x32_486: -1141297314
       2_LivingRoom_32x32_540: 1132779116
+      2_LivingRoom_32x32_243: 520306416
       2_LivingRoom_32x32_504: 928713003
       2_LivingRoom_32x32_387: 1449852295
       2_LivingRoom_32x32_213: 682675874
-      2_LivingRoom_32x32_433: 1444408557
       2_LivingRoom_32x32_100: -491399496
+      2_LivingRoom_32x32_433: 1444408557
       2_LivingRoom_32x32_6: -1870374287
       2_LivingRoom_32x32_49: 1170453187
       2_LivingRoom_32x32_322: -1251050199

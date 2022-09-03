@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -6925,6 +6925,7 @@ TextureImporter:
       20_Japanese_interiors_32x32_293: 1208971744
       20_Japanese_interiors_32x32_301: 819611971
       20_Japanese_interiors_32x32_309: -2094849710
+      20_Japanese_interiors_32x32_308: 520265498
       20_Japanese_interiors_32x32_100: -1026645522
       20_Japanese_interiors_32x32_280: 213526305
       20_Japanese_interiors_32x32_288: 1610389823
@@ -6949,7 +6950,6 @@ TextureImporter:
       20_Japanese_interiors_32x32_166: 578972421
       20_Japanese_interiors_32x32_82: 935262350
       20_Japanese_interiors_32x32_276: -1827047529
-      20_Japanese_interiors_32x32_308: 520265498
       20_Japanese_interiors_32x32_78: -20790496
       20_Japanese_interiors_32x32_264: -2077355006
       20_Japanese_interiors_32x32_94: -284657933
@@ -7038,13 +7038,13 @@ TextureImporter:
       20_Japanese_interiors_32x32_153: -1630153246
       20_Japanese_interiors_32x32_187: 2110957717
       20_Japanese_interiors_32x32_116: -359344013
-      20_Japanese_interiors_32x32_236: 1543200583
-      20_Japanese_interiors_32x32_255: 1219178404
       20_Japanese_interiors_32x32_244: 493935318
+      20_Japanese_interiors_32x32_236: 1543200583
       20_Japanese_interiors_32x32_227: -1981751161
-      20_Japanese_interiors_32x32_133: -855051912
-      20_Japanese_interiors_32x32_15: 1215502142
       20_Japanese_interiors_32x32_320: 529802998
+      20_Japanese_interiors_32x32_15: 1215502142
+      20_Japanese_interiors_32x32_255: 1219178404
+      20_Japanese_interiors_32x32_133: -855051912
       20_Japanese_interiors_32x32_318: 20016933
       20_Japanese_interiors_32x32_237: -439050491
       20_Japanese_interiors_32x32_163: 1749552840

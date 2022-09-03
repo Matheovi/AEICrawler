@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -4720,8 +4720,8 @@ TextureImporter:
       15_Christmas_32x32_195: -594819247
       15_Christmas_32x32_6: 1600326272
       15_Christmas_32x32_16: -1906988747
-      15_Christmas_32x32_48: -185134853
       15_Christmas_32x32_144: -855780143
+      15_Christmas_32x32_48: -185134853
       15_Christmas_32x32_106: 1646128028
       15_Christmas_32x32_90: 1563532885
       15_Christmas_32x32_35: 1605831729

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -18681,8 +18681,8 @@ TextureImporter:
       11_Halloween_32x32_623: 1663916337
       11_Halloween_32x32_483: -1084962381
       11_Halloween_32x32_353: -2067273996
-      11_Halloween_32x32_168: -1826121893
       11_Halloween_32x32_638: 1551655714
+      11_Halloween_32x32_168: -1826121893
       11_Halloween_32x32_836: 782192565
       11_Halloween_32x32_386: 800058457
       11_Halloween_32x32_298: -1257208078
@@ -18797,26 +18797,26 @@ TextureImporter:
       11_Halloween_32x32_12: -1317208654
       11_Halloween_32x32_475: 1141863144
       11_Halloween_32x32_125: -476227326
-      11_Halloween_32x32_268: -2080897184
       11_Halloween_32x32_477: 142879843
-      11_Halloween_32x32_456: -1951943813
+      11_Halloween_32x32_502: -1014604501
+      11_Halloween_32x32_672: -1871485162
       11_Halloween_32x32_70: -2106043409
       11_Halloween_32x32_213: -1671839838
-      11_Halloween_32x32_502: -1014604501
+      11_Halloween_32x32_456: -1951943813
       11_Halloween_32x32_630: -530942529
+      11_Halloween_32x32_757: -443520975
       11_Halloween_32x32_604: -2035773082
       11_Halloween_32x32_582: -928467233
-      11_Halloween_32x32_672: -1871485162
       11_Halloween_32x32_839: 1845767823
       11_Halloween_32x32_82: 169849866
-      11_Halloween_32x32_757: -443520975
+      11_Halloween_32x32_268: -2080897184
       11_Halloween_32x32_145: 511172301
       11_Halloween_32x32_377: -1896765478
       11_Halloween_32x32_259: -393348053
       11_Halloween_32x32_667: 63498994
       11_Halloween_32x32_138: 360901942
-      11_Halloween_32x32_175: -1031779269
       11_Halloween_32x32_738: 1665654036
+      11_Halloween_32x32_175: -1031779269
       11_Halloween_32x32_677: -531322711
       11_Halloween_32x32_520: 1640256673
       11_Halloween_32x32_248: 521144582
@@ -18859,12 +18859,12 @@ TextureImporter:
       11_Halloween_32x32_413: 930731778
       11_Halloween_32x32_703: 856578154
       11_Halloween_32x32_222: -1827717159
+      11_Halloween_32x32_676: -1025874257
       11_Halloween_32x32_303: 1942875824
       11_Halloween_32x32_25: 1344752440
+      11_Halloween_32x32_304: -717817997
       11_Halloween_32x32_49: -1381969390
       11_Halloween_32x32_835: 422466884
-      11_Halloween_32x32_304: -717817997
-      11_Halloween_32x32_676: -1025874257
       11_Halloween_32x32_607: 2061915129
       11_Halloween_32x32_539: 553988439
       11_Halloween_32x32_664: -1228723368
@@ -18876,9 +18876,9 @@ TextureImporter:
       11_Halloween_32x32_313: 2009182852
       11_Halloween_32x32_410: -2137627127
       11_Halloween_32x32_511: -857531528
+      11_Halloween_32x32_734: 237995459
       11_Halloween_32x32_6: -1395885529
       11_Halloween_32x32_347: 1796252206
-      11_Halloween_32x32_734: 237995459
       11_Halloween_32x32_382: 1416790573
       11_Halloween_32x32_580: 1581472519
       11_Halloween_32x32_782: -234079174
@@ -19151,10 +19151,10 @@ TextureImporter:
       11_Halloween_32x32_275: -385879450
       11_Halloween_32x32_432: -1437932333
       11_Halloween_32x32_50: 86975690
-      11_Halloween_32x32_553: 190438115
       11_Halloween_32x32_726: 330814042
-      11_Halloween_32x32_643: 401618922
+      11_Halloween_32x32_553: 190438115
       11_Halloween_32x32_329: -622424959
+      11_Halloween_32x32_643: 401618922
       11_Halloween_32x32_764: -122590633
       11_Halloween_32x32_103: 2101371665
       11_Halloween_32x32_106: -98758175
@@ -19202,7 +19202,6 @@ TextureImporter:
       11_Halloween_32x32_72: 232522650
       11_Halloween_32x32_476: 316948020
       11_Halloween_32x32_514: 2093753344
-      11_Halloween_32x32_715: -323627997
       11_Halloween_32x32_805: 494480857
       11_Halloween_32x32_43: -952742191
       11_Halloween_32x32_848: 1248214448
@@ -19211,6 +19210,7 @@ TextureImporter:
       11_Halloween_32x32_198: 752098438
       11_Halloween_32x32_312: 1905041758
       11_Halloween_32x32_438: -837413254
+      11_Halloween_32x32_715: -323627997
       11_Halloween_32x32_318: 1453965364
       11_Halloween_32x32_570: 1427583767
       11_Halloween_32x32_254: 506579830

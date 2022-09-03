@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -13894,13 +13894,13 @@ TextureImporter:
       18_Jail_32x32_579: 1186059798
       18_Jail_32x32_110: 1203874100
       18_Jail_32x32_315: 1320676416
+      18_Jail_32x32_543: 1195768604
       18_Jail_32x32_234: 647971664
       18_Jail_32x32_407: -1879971950
-      18_Jail_32x32_543: 1195768604
       18_Jail_32x32_562: 1925964683
       18_Jail_32x32_41: 2046709841
-      18_Jail_32x32_231: -155131899
       18_Jail_32x32_460: -982425279
+      18_Jail_32x32_231: -155131899
       18_Jail_32x32_485: 1107564183
       18_Jail_32x32_161: -435593575
       18_Jail_32x32_232: -526180599

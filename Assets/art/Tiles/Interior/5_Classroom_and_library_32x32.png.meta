@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -10769,9 +10769,9 @@ TextureImporter:
       5_Classroom_and_library_32x32_198: 705608007
       5_Classroom_and_library_32x32_293: -225109790
       5_Classroom_and_library_32x32_136: 789500935
+      5_Classroom_and_library_32x32_460: -1226042034
       5_Classroom_and_library_32x32_301: -1815674518
       5_Classroom_and_library_32x32_268: -1120198373
-      5_Classroom_and_library_32x32_460: -1226042034
       5_Classroom_and_library_32x32_317: -528836247
       5_Classroom_and_library_32x32_441: -1379015821
       5_Classroom_and_library_32x32_423: -1163857998
@@ -10799,12 +10799,12 @@ TextureImporter:
       5_Classroom_and_library_32x32_88: 893837954
       5_Classroom_and_library_32x32_315: -329055298
       5_Classroom_and_library_32x32_334: -1552659504
-      5_Classroom_and_library_32x32_123: 71954832
       5_Classroom_and_library_32x32_262: -1001267681
+      5_Classroom_and_library_32x32_123: 71954832
       5_Classroom_and_library_32x32_290: -1253575601
-      5_Classroom_and_library_32x32_113: 1182002702
-      5_Classroom_and_library_32x32_119: -352180061
       5_Classroom_and_library_32x32_244: -464561444
+      5_Classroom_and_library_32x32_119: -352180061
+      5_Classroom_and_library_32x32_113: 1182002702
       5_Classroom_and_library_32x32_495: 1973865354
       5_Classroom_and_library_32x32_39: 627176659
       5_Classroom_and_library_32x32_238: -919898861
@@ -10894,8 +10894,8 @@ TextureImporter:
       5_Classroom_and_library_32x32_68: -677987449
       5_Classroom_and_library_32x32_286: 1569548001
       5_Classroom_and_library_32x32_1: -131720240
-      5_Classroom_and_library_32x32_111: 1245034932
       5_Classroom_and_library_32x32_182: 50639822
+      5_Classroom_and_library_32x32_111: 1245034932
       5_Classroom_and_library_32x32_183: -1813665942
       5_Classroom_and_library_32x32_36: -1329392494
       5_Classroom_and_library_32x32_469: 1206934760
@@ -10906,10 +10906,10 @@ TextureImporter:
       5_Classroom_and_library_32x32_280: -1922252232
       5_Classroom_and_library_32x32_8: -1523788140
       5_Classroom_and_library_32x32_451: -362867215
-      5_Classroom_and_library_32x32_312: -1986982205
+      5_Classroom_and_library_32x32_396: 1978927631
       5_Classroom_and_library_32x32_146: 1824428327
       5_Classroom_and_library_32x32_12: -1518446425
-      5_Classroom_and_library_32x32_396: 1978927631
+      5_Classroom_and_library_32x32_312: -1986982205
       5_Classroom_and_library_32x32_487: 809478029
       5_Classroom_and_library_32x32_442: 1879711589
       5_Classroom_and_library_32x32_437: 797702476
@@ -10990,20 +10990,20 @@ TextureImporter:
       5_Classroom_and_library_32x32_373: -931337530
       5_Classroom_and_library_32x32_432: 2040463491
       5_Classroom_and_library_32x32_236: 1455268040
-      5_Classroom_and_library_32x32_305: 2143071241
+      5_Classroom_and_library_32x32_388: -442735084
       5_Classroom_and_library_32x32_476: -373089223
+      5_Classroom_and_library_32x32_305: 2143071241
       5_Classroom_and_library_32x32_161: -525075133
       5_Classroom_and_library_32x32_361: -962773636
       5_Classroom_and_library_32x32_58: -1934534686
       5_Classroom_and_library_32x32_401: 987709338
-      5_Classroom_and_library_32x32_388: -442735084
       5_Classroom_and_library_32x32_103: 1315008562
       5_Classroom_and_library_32x32_246: -660660
       5_Classroom_and_library_32x32_25: -389541331
-      5_Classroom_and_library_32x32_126: -593820638
       5_Classroom_and_library_32x32_224: -520830409
-      5_Classroom_and_library_32x32_368: -1013295701
+      5_Classroom_and_library_32x32_126: -593820638
       5_Classroom_and_library_32x32_84: -1159628806
+      5_Classroom_and_library_32x32_368: -1013295701
       5_Classroom_and_library_32x32_328: -1043431637
       5_Classroom_and_library_32x32_235: 1838845783
       5_Classroom_and_library_32x32_96: 1434306716
@@ -11018,11 +11018,11 @@ TextureImporter:
       5_Classroom_and_library_32x32_6: -114860075
       5_Classroom_and_library_32x32_352: -507920867
       5_Classroom_and_library_32x32_72: -1256974336
-      5_Classroom_and_library_32x32_215: -1267169128
-      5_Classroom_and_library_32x32_271: 255935731
-      5_Classroom_and_library_32x32_259: -1815180148
       5_Classroom_and_library_32x32_484: 960274793
+      5_Classroom_and_library_32x32_271: 255935731
+      5_Classroom_and_library_32x32_215: -1267169128
       5_Classroom_and_library_32x32_17: 851849829
+      5_Classroom_and_library_32x32_259: -1815180148
       5_Classroom_and_library_32x32_461: -1035752036
       5_Classroom_and_library_32x32_222: -1262066937
       5_Classroom_and_library_32x32_233: -1851015152
@@ -11033,17 +11033,17 @@ TextureImporter:
       5_Classroom_and_library_32x32_104: 1310342864
       5_Classroom_and_library_32x32_147: -1962288068
       5_Classroom_and_library_32x32_16: 97571649
-      5_Classroom_and_library_32x32_35: 462190229
       5_Classroom_and_library_32x32_75: -182383230
+      5_Classroom_and_library_32x32_35: 462190229
       5_Classroom_and_library_32x32_228: -1571947026
+      5_Classroom_and_library_32x32_287: 1591172578
       5_Classroom_and_library_32x32_20: -659141204
       5_Classroom_and_library_32x32_197: 1567957816
-      5_Classroom_and_library_32x32_287: 1591172578
+      5_Classroom_and_library_32x32_297: -1320879875
       5_Classroom_and_library_32x32_67: -1550133535
       5_Classroom_and_library_32x32_2: -1602484867
-      5_Classroom_and_library_32x32_194: 349532499
       5_Classroom_and_library_32x32_210: 388163171
-      5_Classroom_and_library_32x32_297: -1320879875
+      5_Classroom_and_library_32x32_194: 349532499
       5_Classroom_and_library_32x32_282: 597755868
       5_Classroom_and_library_32x32_343: -1729890908
       5_Classroom_and_library_32x32_403: 1177472255

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -15782,10 +15782,10 @@ TextureImporter:
       3_Bathroom_32x32_531: -1687791384
       3_Bathroom_32x32_93: -412402461
       3_Bathroom_32x32_116: 372487664
-      3_Bathroom_32x32_311: -485691569
       3_Bathroom_32x32_530: -351671178
-      3_Bathroom_32x32_267: -150028083
+      3_Bathroom_32x32_311: -485691569
       3_Bathroom_32x32_608: -1402850372
+      3_Bathroom_32x32_267: -150028083
       3_Bathroom_32x32_146: 1201784253
       3_Bathroom_32x32_175: -1587975511
       3_Bathroom_32x32_19: -890677680

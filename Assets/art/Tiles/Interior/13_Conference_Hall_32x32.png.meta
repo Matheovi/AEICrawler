@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3030,9 +3030,9 @@ TextureImporter:
       13_Conference_Hall_32x32_39: 620528140
       13_Conference_Hall_32x32_51: 799487136
       13_Conference_Hall_32x32_47: 1215443222
+      13_Conference_Hall_32x32_136: 1208566697
       13_Conference_Hall_32x32_1: 293849473
       13_Conference_Hall_32x32_100: 615558072
-      13_Conference_Hall_32x32_136: 1208566697
       13_Conference_Hall_32x32_28: -448818821
       13_Conference_Hall_32x32_70: 2054503842
       13_Conference_Hall_32x32_67: 836352186
@@ -3073,20 +3073,20 @@ TextureImporter:
       13_Conference_Hall_32x32_86: 61837150
       13_Conference_Hall_32x32_15: 2045202422
       13_Conference_Hall_32x32_18: 721778830
-      13_Conference_Hall_32x32_71: 509269571
-      13_Conference_Hall_32x32_27: 1974211075
       13_Conference_Hall_32x32_61: -1191467079
-      13_Conference_Hall_32x32_108: -348539088
-      13_Conference_Hall_32x32_60: 872100975
+      13_Conference_Hall_32x32_71: 509269571
       13_Conference_Hall_32x32_123: -1865933518
+      13_Conference_Hall_32x32_108: -348539088
+      13_Conference_Hall_32x32_27: 1974211075
       13_Conference_Hall_32x32_113: 273859394
       13_Conference_Hall_32x32_22: 1167908157
-      13_Conference_Hall_32x32_85: 1391017827
+      13_Conference_Hall_32x32_60: 872100975
       13_Conference_Hall_32x32_134: 416451184
       13_Conference_Hall_32x32_32: -833323360
       13_Conference_Hall_32x32_88: -1236033619
       13_Conference_Hall_32x32_9: 1981762096
       13_Conference_Hall_32x32_63: 404233756
+      13_Conference_Hall_32x32_85: 1391017827
       13_Conference_Hall_32x32_119: 640148236
       13_Conference_Hall_32x32_2: 1004876913
       13_Conference_Hall_32x32_31: 302725756
