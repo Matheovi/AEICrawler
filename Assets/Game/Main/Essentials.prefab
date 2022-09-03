@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 8441361508558781405}
   - component: {fileID: 8441361508558781406}
   - component: {fileID: 8441361508558781407}
+  - component: {fileID: 2565915006373787412}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -279,7 +280,6 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 128
-  animator: {fileID: 0}
 --- !u!95 &8441361508558781405
 Animator:
   serializedVersion: 4
@@ -288,7 +288,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8441361508558781401}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9895f7dc68ab52c45881545b6357e38b, type: 2}
   m_CullingMode: 0
@@ -338,6 +338,54 @@ MonoBehaviour:
     count: 4
   - item: {fileID: 11400000, guid: ebcd8820931077c42916e94ec17393c3, type: 2}
     count: 2
+--- !u!114 &2565915006373787412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441361508558781401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052a337ab6a3c2a4a8373631806d79dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkDownSprites:
+  - {fileID: -346726648, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 440740844, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 770752162, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -1285119189, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 655443716, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -611996456, guid: 277826572651390469c847467ad04b11, type: 3}
+  walkUpSprites:
+  - {fileID: -1523877198, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 716483232, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 1037243947, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 1846908475, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -1294540038, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 656341350, guid: 277826572651390469c847467ad04b11, type: 3}
+  walkRightSprites:
+  - {fileID: -1796435867, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 538349025, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -1542783941, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -1860829781, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -326052247, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 461775299, guid: 277826572651390469c847467ad04b11, type: 3}
+  walkLeftSprites:
+  - {fileID: -1986155397, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 1569288766, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -69948667, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 223641578, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 902480215, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 722317188, guid: 277826572651390469c847467ad04b11, type: 3}
+  idleAnimSprites:
+  - {fileID: 2030210229, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -1541397353, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -2143850899, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -467914177, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: -454742562, guid: 277826572651390469c847467ad04b11, type: 3}
+  - {fileID: 1908618280, guid: 277826572651390469c847467ad04b11, type: 3}
+  defaultDirection: 1
 --- !u!1 &8441361508714454213
 GameObject:
   m_ObjectHideFlags: 0

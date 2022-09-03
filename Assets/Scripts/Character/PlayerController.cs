@@ -15,11 +15,13 @@ public class PlayerController : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
-    public Animator animator;
+    //public Animator animator;
+
+    CharacterAnimator animator;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponent<CharacterAnimator>();
 
     }
 
@@ -30,11 +32,11 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
         if (horizontalInput != 0 || verticalInput != 0)
         {
-            animator.SetBool("isMoving", true);
-            animator.SetFloat("moveX", horizontalInput);
-            animator.SetFloat("moveY", verticalInput);
+            animator.IsMoving = true;
+            animator.MoveX = horizontalInput;
+            animator.MoveY = verticalInput;
         }
-        if (horizontalInput == 0 && verticalInput == 0) animator.SetBool("isMoving", false);
+        if (horizontalInput == 0 && verticalInput == 0) animator.IsMoving = false;
 
         if (canMove(transform.position + new Vector3(horizontalInput * movementSpeed * Time.deltaTime, verticalInput * movementSpeed * Time.deltaTime)))
         {
@@ -78,7 +80,7 @@ public class PlayerController : MonoBehaviour
     
     void Interact()
     {
-        var facingDirection = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var facingDirection = new Vector3(animator.MoveX, animator.MoveY);
         var interactPosition = transform.position + facingDirection;
 
         Debug.DrawLine(transform.position, interactPosition, Color.green, 0.5f);
