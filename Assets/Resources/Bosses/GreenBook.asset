@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d24c60457207f4b92930f1e48fe963, type: 3}
+  m_Name: GreenBook
+  m_EditorClassIdentifier: 
+  bossName: GeorgeWizard
+  bossDescription: Your last obstacle to freedom. George Wizard is a wizard sitting
+    on 35th floor. He throws spells from green book, that's called necronomicon.
+  maxHealth: 1000
+  damage: 100
+  defense: 50
+  bossNPCSprite: {fileID: 21300000, guid: d1ebc4f5214ab364aaf695b910b5fa30, type: 3}
+  bossBattleImage: {fileID: 21300000, guid: f1f8eac75cf72f84693feb16c5c82a5c, type: 3}
+  possibleAttacks: []

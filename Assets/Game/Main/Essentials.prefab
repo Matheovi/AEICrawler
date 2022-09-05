@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 4260311035449021151}
+  dialogImage: {fileID: 3345789156421279326}
   dialogText: {fileID: 5929200840693780056}
   lettersPerSecond: 30
 --- !u!114 &8441361508317889530
@@ -836,6 +837,11 @@ MonoBehaviour:
 --- !u!224 &1765066833419126620 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8524089319714877211, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
+  m_PrefabInstance: {fileID: 7941360154284075079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3345789156421279326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4637512992048756249, guid: fa8a7b580a82d1c429a52446565e3ea6, type: 3}
   m_PrefabInstance: {fileID: 7941360154284075079}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4260311035449021151 stripped

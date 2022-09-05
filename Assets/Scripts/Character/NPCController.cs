@@ -8,6 +8,8 @@ public class NPCController : MonoBehaviour, Interactable
     [SerializeField] Dialog dialog;
 
     [SerializeField] QuestBase questToStart;
+
+    [SerializeField] Sprite NPCDialogSprite;
     Quest activeQuest;
     
     public IEnumerator Interact(Transform initiator)
@@ -28,12 +30,12 @@ public class NPCController : MonoBehaviour, Interactable
             }
             else
             {
-                yield return DialogManager.Instance.ShowDialog(activeQuest.Base.InProgressDialogue);
+                yield return DialogManager.Instance.ShowDialog(activeQuest.Base.InProgressDialogue, NPCDialogSprite);
             }
         }
         else
         {
-            StartCoroutine(DialogManager.Instance.ShowDialog(dialog));
+            StartCoroutine(DialogManager.Instance.ShowDialog(dialog, NPCDialogSprite));
         }
     }
 }  

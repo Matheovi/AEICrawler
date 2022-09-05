@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d24c60457207f4b92930f1e48fe963, type: 3}
+  m_Name: Hero-Shima
+  m_EditorClassIdentifier: 
+  bossName: Hero-Shima
+  bossDescription: This boss is dangerous. It flies with his bomber dropping transistors
+    that explode when on ground (because you know.... ground.... hehe)
+  maxHealth: 0
+  damage: 0
+  defense: 0
+  bossNPCSprite: {fileID: 21300000, guid: bf452981bc5c67049ad46918245e0716, type: 3}
+  bossBattleImage: {fileID: 21300000, guid: b8342a4788094474d98f4df25d78c046, type: 3}
+  possibleAttacks: []

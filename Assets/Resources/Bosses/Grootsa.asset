@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d24c60457207f4b92930f1e48fe963, type: 3}
+  m_Name: Grootsa
+  m_EditorClassIdentifier: 
+  bossName: BlueScreen
+  bossDescription: 'A problem has been detected and Windows has been shut down to
+    prevent damage to your computer.
+
+
+
+    If this is the first time you''ve seen
+    this stop error screen, restart your computer. if this screen appears again,
+    follow these steps:
+
+
+
+    Check to make sure any new hardware or software is
+    properly installed. '
+  maxHealth: 1000
+  damage: 100
+  defense: 50
+  bossNPCSprite: {fileID: 21300000, guid: b42cb3ad8e1932e4581ca388d3648c40, type: 3}
+  bossBattleImage: {fileID: 21300000, guid: fe34e8e1cfe059646b61d4286922f234, type: 3}
+  possibleAttacks: []
