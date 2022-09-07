@@ -21,6 +21,7 @@ public class BossBase : ScriptableObject
 
     [SerializeField] Sprite bossNPCSprite;
     [SerializeField] Sprite bossBattleImage;
+    [SerializeField] Sprite bossBattleBackground;
 
     
 
@@ -29,6 +30,8 @@ public class BossBase : ScriptableObject
 
     public Sprite NPCSprite => bossNPCSprite;
     public Sprite BattleImage => bossBattleImage;
+
+    public Sprite BattleBackground => bossBattleBackground;
 
     public List<AttackBase> PossibleAttacks => possibleAttacks;
 

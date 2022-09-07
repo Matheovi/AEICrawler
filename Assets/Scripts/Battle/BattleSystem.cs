@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using DG.Tweening;
 
@@ -20,15 +21,21 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] BattleHud playerHud;
     [SerializeField] BattleHud enemyHud;
+    [SerializeField] GameObject background;
 
     [SerializeField] BattleDialogBox battleDialogBox;
 
     //Bosss passed in GameController.cs with SetBossData() function here
-    [SerializeField] Boss boss;
+    public Boss boss;
 
     public event Action OnBattleQuit;
 
     public BattleState battleState;
+
+    public Image backgroundImage;
+
+
+
 
     MoveBase selectedMove;
     bool turnRunning = false;
@@ -45,6 +52,9 @@ public class BattleSystem : MonoBehaviour
         battleState = BattleState.START;
         playerHud.SetData();
         enemyHud.SetData(boss);
+        backgroundImage = background.GetComponent<Image>();
+        backgroundImage.sprite = boss.BattleBackground;
+
 
 
         StartCoroutine(battleDialogBox.TypeDialog($"Your professor {boss.Name} appeared!"));

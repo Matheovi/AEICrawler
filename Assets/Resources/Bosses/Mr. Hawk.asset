@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Mr. Hawk
   m_EditorClassIdentifier: 
   bossName: Mr Hawk
-  bossDescription: Mr Hawk with his claws that catch unhandled exceptions (students),
-    is a threat to all student population, be careful!
+  bossDescription: Mr Hawk with his claws that catch unhandled exceptions (students)
+    and gaps in documentation, is a threat to all student population, be careful!
   maxHealth: 1000
   damage: 100
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: 12b963c989d251b47b0b43d80bb8875e, type: 3}
   bossBattleImage: {fileID: 21300000, guid: fbe136f90c03ae54e8eeb1d3744b1b1d, type: 3}
+  bossBattleBackground: {fileID: 0}
   possibleAttacks: []

@@ -1953,9 +1953,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHud: {fileID: 7976267828934319018}
   enemyHud: {fileID: 7976267829407722479}
+  background: {fileID: 7976267830784580008}
   battleDialogBox: {fileID: 7976267829113485884}
   boss: {fileID: 0}
   battleState: 0
+  backgroundImage: {fileID: 0}
 --- !u!1 &7976267829965173516
 GameObject:
   m_ObjectHideFlags: 0

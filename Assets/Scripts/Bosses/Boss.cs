@@ -15,6 +15,7 @@ public class Boss : MonoBehaviour
 
      Sprite bossNPCSprite;
      Sprite bossBattleImage;
+     Sprite bossBackground;
 
     public int current_health;
     public float health_procent;
@@ -28,6 +29,8 @@ public class Boss : MonoBehaviour
     public Sprite BattleImage => bossBattleImage;
     public float HealthProcent => health_procent;
 
+    public Sprite BattleBackground => bossBackground;
+
     
 
     public void Awake()
@@ -35,6 +38,7 @@ public class Boss : MonoBehaviour
         sprite_renderer = GetComponentInParent<SpriteRenderer>();
         bossNPCSprite = boss.NPCSprite;
         bossBattleImage = boss.BattleImage;
+        bossBackground = boss.BattleBackground;
 
         bossName = boss.bossName;
         bossDescription = boss.bossDescription;
