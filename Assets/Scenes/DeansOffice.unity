@@ -186,6 +186,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 6179858864911280488, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6179858864911280488, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.57
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
 --- !u!1 &87847184
@@ -4822,11 +4830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627663327659378554, guid: 619483ac9796ddb4f836d0a48c39231f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.219206
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 1627663327659378554, guid: 619483ac9796ddb4f836d0a48c39231f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0645902
+      value: 3.67
       objectReference: {fileID: 0}
     - target: {fileID: 1627663327659378554, guid: 619483ac9796ddb4f836d0a48c39231f, type: 3}
       propertyPath: m_LocalPosition.z
