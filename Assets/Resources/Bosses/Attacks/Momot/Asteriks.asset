@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   description: 
-  attackSprite: {fileID: 0}
+  attackSprite: {fileID: 21300000, guid: dede0f2ad0553af45984d13f45012993, type: 3}
   damage: 0

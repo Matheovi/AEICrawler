@@ -319,7 +319,7 @@ MonoBehaviour:
   mana: 0
   maxMana: 0
   ectsPoints: 0
-  playerBattleImage: {fileID: 21300000, guid: f45031fe342480d4d9fd73a8b8bf877f, type: 3}
+  playerBattleImage: {fileID: 21300000, guid: ac396bb1c206f034c8204eedae051d02, type: 3}
   moves:
   - {fileID: 11400000, guid: ff685815698271baabaaae2e6e114edc, type: 2}
 --- !u!114 &8441361508558781407

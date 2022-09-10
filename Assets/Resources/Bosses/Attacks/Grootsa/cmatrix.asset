@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
-  m_Name: CancelPoints
+  m_Name: cmatrix
   m_EditorClassIdentifier: 
   name: 
   description: 
-  attackSprite: {fileID: 0}
+  attackSprite: {fileID: 21300000, guid: 78ee3bf12c10bc444bb5fe75b74ee1fc, type: 3}
   damage: 0

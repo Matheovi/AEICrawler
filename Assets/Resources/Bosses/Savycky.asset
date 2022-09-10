@@ -20,4 +20,9 @@ MonoBehaviour:
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: 96f4e661ebd9bee43a0e37e85f7b34de, type: 3}
   bossBattleImage: {fileID: 21300000, guid: b83d26d21cbc31d4fbf5cd2482bf5d22, type: 3}
-  possibleAttacks: []
+  bossBattleBackground: {fileID: 0}
+  possibleAttacks:
+  - {fileID: 11400000, guid: 790ad95911c66934282ead7099fef761, type: 2}
+  - {fileID: 11400000, guid: d647dc19c54c1284fb5012f51cfd5f2e, type: 2}
+  - {fileID: 11400000, guid: 21cb19c5ad5103f4a80c3d007ed0ef86, type: 2}
+  - {fileID: 11400000, guid: aa63051c34cfd5e4398a15d2e1e6a9b8, type: 2}
