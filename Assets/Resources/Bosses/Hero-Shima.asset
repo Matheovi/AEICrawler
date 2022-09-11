@@ -15,9 +15,9 @@ MonoBehaviour:
   bossName: Hero-Shima
   bossDescription: This boss is dangerous. It flies with his bomber dropping transistors
     that explode when on ground (because you know.... ground.... hehe)
-  maxHealth: 0
-  damage: 0
-  defense: 0
+  maxHealth: 3000
+  damage: 300
+  defense: 30
   bossNPCSprite: {fileID: 21300000, guid: bf452981bc5c67049ad46918245e0716, type: 3}
   bossBattleImage: {fileID: 21300000, guid: b8342a4788094474d98f4df25d78c046, type: 3}
   bossBattleBackground: {fileID: 21300000, guid: ca381fcfbce2af84998cf743ac72852f, type: 3}

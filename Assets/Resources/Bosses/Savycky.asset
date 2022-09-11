@@ -15,9 +15,9 @@ MonoBehaviour:
   bossName: Mr. Incognito
   bossDescription: This boss special ability is hacking devices using thunderbolt
     and kotlin. Goes incognito.
-  maxHealth: 1000
-  damage: 100
-  defense: 50
+  maxHealth: 4000
+  damage: 400
+  defense: 40
   bossNPCSprite: {fileID: 21300000, guid: 96f4e661ebd9bee43a0e37e85f7b34de, type: 3}
   bossBattleImage: {fileID: 21300000, guid: b83d26d21cbc31d4fbf5cd2482bf5d22, type: 3}
   bossBattleBackground: {fileID: 21300000, guid: af2ce57d8e6379742b4dbe0210038155, type: 3}

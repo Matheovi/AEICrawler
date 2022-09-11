@@ -15,8 +15,8 @@ MonoBehaviour:
   bossName: Simin
   bossDescription: This is boss, that threatens with black magic, mainly algorithms,
     and linked lists.
-  maxHealth: 1000
-  damage: 100
+  maxHealth: 2000
+  damage: 200
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: 18f4520c94d4e9f4bb063778a826b2bf, type: 3}
   bossBattleImage: {fileID: 21300000, guid: 18f4520c94d4e9f4bb063778a826b2bf, type: 3}

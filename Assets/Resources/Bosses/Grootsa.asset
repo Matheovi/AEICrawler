@@ -26,8 +26,8 @@ MonoBehaviour:
 
     Check to make sure any new hardware or software is
     properly installed. '
-  maxHealth: 1000
-  damage: 100
+  maxHealth: 3500
+  damage: 350
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: b42cb3ad8e1932e4581ca388d3648c40, type: 3}
   bossBattleImage: {fileID: 21300000, guid: fe34e8e1cfe059646b61d4286922f234, type: 3}

@@ -15,8 +15,8 @@ MonoBehaviour:
   bossName: GeorgeWizard
   bossDescription: Your last obstacle to freedom. George Wizard is a wizard sitting
     on 35th floor. He throws spells from green book, that's called necronomicon.
-  maxHealth: 1000
-  damage: 100
+  maxHealth: 5000
+  damage: 500
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: d1ebc4f5214ab364aaf695b910b5fa30, type: 3}
   bossBattleImage: {fileID: 21300000, guid: f1f8eac75cf72f84693feb16c5c82a5c, type: 3}

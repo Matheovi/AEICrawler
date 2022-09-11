@@ -15,8 +15,8 @@ MonoBehaviour:
   bossName: Roxanna
   bossDescription: This is hard math boss. Throwing integrals like shurikens. Even
     more dangerous, when student is endangered.
-  maxHealth: 1000
-  damage: 100
+  maxHealth: 2500
+  damage: 250
   defense: 50
   bossNPCSprite: {fileID: 21300000, guid: 7605f6f246f32dd45bf6ac48d803bcd8, type: 3}
   bossBattleImage: {fileID: 21300000, guid: 7605f6f246f32dd45bf6ac48d803bcd8, type: 3}
