@@ -15,4 +15,4 @@ MonoBehaviour:
   name: 
   description: 
   attackSprite: {fileID: 0}
-  damage: 0
+  damage: 75
