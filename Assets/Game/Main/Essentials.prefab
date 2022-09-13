@@ -314,14 +314,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: AEIStudent
-  health: 900
-  maxHealth: 900
-  mana: 0
-  maxMana: 0
+  health: 1000
+  maxHealth: 1000
+  mana: 250
+  maxMana: 250
   ectsPoints: 0
   playerBattleImage: {fileID: 21300000, guid: ac396bb1c206f034c8204eedae051d02, type: 3}
   moves:
   - {fileID: 11400000, guid: ff685815698271baabaaae2e6e114edc, type: 2}
+  - {fileID: 11400000, guid: 569f6fbb23f10c741a1639c3d628b02d, type: 2}
+  - {fileID: 11400000, guid: bdb58be22d150394daba36c07873c8bc, type: 2}
 --- !u!114 &8441361508558781407
 MonoBehaviour:
   m_ObjectHideFlags: 0
