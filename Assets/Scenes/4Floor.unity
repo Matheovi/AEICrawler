@@ -169,6 +169,46 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[2].m_Data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[3].m_Data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[16].m_Data
+      value: 
+      objectReference: {fileID: -3417320991480674723, guid: 8462606c7ecbaa747837da6691558446, type: 3}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[17].m_Data
+      value: 
+      objectReference: {fileID: -1245076058095183108, guid: 8462606c7ecbaa747837da6691558446, type: 3}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[2].m_RefCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[3].m_RefCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[16].m_RefCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[17].m_RefCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_Tiles.Array.data[0].second.m_TileSpriteIndex
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289073266027272738, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
+      propertyPath: m_Tiles.Array.data[6].second.m_TileSpriteIndex
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4896794479176497367, guid: e8777863d01ad8143bfa5658b21cfd4f, type: 3}
       propertyPath: m_TileSpriteArray.Array.data[26].m_Data
       value: 
@@ -268,11 +308,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 808789125676088206, guid: e42c9d0c43966854b8dce42bdb2d2fb6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.67
+      value: -1.98
       objectReference: {fileID: 0}
     - target: {fileID: 808789125676088206, guid: e42c9d0c43966854b8dce42bdb2d2fb6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.35
+      value: -6.31
       objectReference: {fileID: 0}
     - target: {fileID: 808789125676088206, guid: e42c9d0c43966854b8dce42bdb2d2fb6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -316,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: c90d48b15eb79004990598fa05f344ab, type: 2}
     - target: {fileID: 8195602969327334677, guid: e42c9d0c43966854b8dce42bdb2d2fb6, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e42c9d0c43966854b8dce42bdb2d2fb6, type: 3}
@@ -390,11 +430,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 547144113958463800, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.55
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 547144113958463800, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.58
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 547144113958463800, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
       propertyPath: m_LocalPosition.z
