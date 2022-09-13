@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Buffet.unity
     guid: dd6f192bd1d06cb48b9b0807d3ed67ef
+  - enabled: 1
+    path: Assets/Scenes/35Floor.unity
+    guid: 918d1b4bb97007f4fb6925f6950911bb
   m_configObjects: {}

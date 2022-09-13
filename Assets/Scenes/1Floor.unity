@@ -247,6 +247,10 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 547144113958463801, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
+      propertyPath: amountOfPointsToGo
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 547144113958463802, guid: ce58a9db9eaf1574fa7ef8cd7648a1c8, type: 3}
       propertyPath: m_Name
       value: Portal
@@ -3670,8 +3674,8 @@ Transform:
   - {fileID: 1654589358}
   - {fileID: 1468116928}
   - {fileID: 1596302678}
-  - {fileID: 924860796}
   - {fileID: 1231613786}
+  - {fileID: 924860796}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6288,7 +6292,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 757033453}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
 --- !u!212 &1231613787
 SpriteRenderer:
