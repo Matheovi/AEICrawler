@@ -159,17 +159,13 @@ public class BattleSystem : MonoBehaviour
             battleDialogBox.UpdateMoveSelector();
         }
         else if (Input.GetKeyDown(KeyCode.Return))
-        {
-            //Fight
-            if (battleDialogBox.GetChoice() == 0)
-            {
-                Debug.Log("Move1 TODO");
+        { 
                 selectedMove = PlayerStats.Instance.Move[battleDialogBox.GetChoice()];
                 if(!turnRunning)
-                    StartCoroutine(MakeTurns());
-            }
-
+                StartCoroutine(MakeTurns());
         }
+
+       
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
             ActionSelection();
