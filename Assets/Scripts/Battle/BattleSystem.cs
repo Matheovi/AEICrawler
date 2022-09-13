@@ -220,6 +220,7 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(playerHud.Kill());
         yield return new WaitForSeconds(2f);
         //SOMETHING HERE SHOULD BE??
+        //Yees. To a complete stop the game should come here
         OnBattleQuit();
     }
 
@@ -230,6 +231,8 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
         boss.gameObject.SetActive(false);
         PlayerStats.Instance.AddECTS(30);
+        PlayerStats.Instance.AddMaxHP(100);
+        PlayerStats.Instance.AddHP(100000);
         OnBattleQuit();
 
     }

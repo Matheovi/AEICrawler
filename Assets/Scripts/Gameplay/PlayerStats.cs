@@ -75,4 +75,9 @@ public class PlayerStats : MonoBehaviour
             mana = maxMana;
         }
     }
+
+    public void AddMaxHP(int amount)
+    {
+        maxHealth += amount;
+    }
 }

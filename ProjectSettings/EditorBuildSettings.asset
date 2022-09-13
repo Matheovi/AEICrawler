@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/9Floor.unity
     guid: eb5559b38e17c3b49a08aa4919e12034
+  - enabled: 1
+    path: Assets/Scenes/Buffet.unity
+    guid: dd6f192bd1d06cb48b9b0807d3ed67ef
   m_configObjects: {}
