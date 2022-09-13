@@ -25,9 +25,11 @@ public class GameController : MonoBehaviour
         playerController.onEncounter += boss =>
         {
             gameState = GameState.Battle;
-            battleSystem.gameObject.SetActive(true);
 
             battleSystem.SetBossData(boss);
+            //battleSystem.Start();
+            battleSystem.gameObject.SetActive(true);
+            battleSystem.SetupBattle();
             
             worldCamera.gameObject.SetActive(false);
         };
