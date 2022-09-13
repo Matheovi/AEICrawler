@@ -9,15 +9,13 @@ public class BossBase : ScriptableObject
 {
 
     
-    [SerializeField] public string bossName;
+    [SerializeField] string bossName;
 
     [TextArea]
-    [SerializeField] public string bossDescription;
+    [SerializeField] string bossDescription;
 
-    [SerializeField] public int maxHealth;
-    [SerializeField] public int damage;
-    [SerializeField] public int defense;
-
+    [SerializeField] int maxHealth;
+    [SerializeField] int damage;
 
     [SerializeField] Sprite bossNPCSprite;
     [SerializeField] Sprite bossBattleImage;
@@ -27,7 +25,11 @@ public class BossBase : ScriptableObject
 
     [SerializeField] List<AttackBase> possibleAttacks;
 
+    public string Name => bossName;
+    public string Description => bossDescription;
 
+    public int MaxHealth => maxHealth;
+    public int Damage => damage;
     public Sprite NPCSprite => bossNPCSprite;
     public Sprite BattleImage => bossBattleImage;
 
@@ -35,5 +37,13 @@ public class BossBase : ScriptableObject
 
     public List<AttackBase> PossibleAttacks => possibleAttacks;
 
-
+    public AttackBase Attack()
+    {
+        if (possibleAttacks.Count > 0)
+        {
+            AttackBase chosenAttack = possibleAttacks.PickRandom();
+            return chosenAttack;
+        }
+        else return default;
+    }
 }

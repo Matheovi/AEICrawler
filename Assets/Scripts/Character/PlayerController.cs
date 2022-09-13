@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
             if (collider.gameObject.tag == "Boss")
             {
                 Debug.Log("Boss");
-                onEncounter(collider.gameObject.GetComponent<Boss>());
+                GameController.Instance.StartBattle(collider.gameObject.GetComponent<Boss>());
                 //StartCoroutine(collider.gameObject.GetComponent<Interactable>()?.Interact(transform));
             }
             else if (collider.gameObject.tag == "NPC")

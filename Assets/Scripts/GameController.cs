@@ -12,27 +12,21 @@ public class GameController : MonoBehaviour
     [SerializeField] BattleSystem battleSystem;
     [SerializeField] Camera worldCamera;
     [SerializeField] InventoryUI inventoryUI;
-    Boss boss;
 
 
     MenuController menuController;
     GameState gameState;
 
+    public static GameController Instance { get; private set; }
+    private void Awake()
+    {
+        Instance = this;
+        menuController = GetComponent<MenuController>();
+    }
 
-    private void Start()
+        private void Start()
     {
         Application.targetFrameRate = 30;
-        playerController.onEncounter += boss =>
-        {
-            gameState = GameState.Battle;
-
-            battleSystem.SetBossData(boss);
-            //battleSystem.Start();
-            battleSystem.gameObject.SetActive(true);
-            battleSystem.SetupBattle();
-            
-            worldCamera.gameObject.SetActive(false);
-        };
         
         battleSystem.OnBattleQuit += ()=> {
             gameState = GameState.FreeRoam;
@@ -60,16 +54,18 @@ public class GameController : MonoBehaviour
     }
 
 
-    private void Awake()
+    public void StartBattle(Boss boss)
     {
-        menuController = GetComponent<MenuController>();
+        gameState = GameState.Battle;
+        battleSystem.gameObject.SetActive(true);
+        worldCamera.gameObject.SetActive(false);
 
-
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
-        
+        battleSystem.StartBattle(boss);
     }
-    
+
+
+
+
     private void Update()
     {
         if (gameState == GameState.FreeRoam)

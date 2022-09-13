@@ -11,54 +11,59 @@ public enum BattleState
     START,
     ACTION_SELECTION,
     MOVE_SELECTION,
-    PLAYER_TURN,
-    ENEMY_TURN,
+    BUSY,
     END
 }
 
 public class BattleSystem : MonoBehaviour
 {
 
-    [SerializeField] BattleHud playerHud;
-    [SerializeField] BattleHud enemyHud;
+
+    [SerializeField] BattleUnit playerUnit;
+    [SerializeField] BattleUnit enemyUnit;
+
+
     [SerializeField] GameObject background;
 
-    [SerializeField] BattleDialogBox battleDialogBox;
+    [SerializeField] BattleDialogBox dialogBox;
 
-    //Bosss passed in GameController.cs with SetBossData() function here
-    public Boss boss;
+
+
 
     public event Action OnBattleQuit;
 
     public BattleState battleState;
 
-    public Image backgroundImage;
 
 
 
 
-    MoveBase selectedMove;
+    MoveBase chosenMove;
+
     bool turnRunning = false;
 
-    public void Start()
-    {
-        SetupBattle();
 
+
+
+    public void StartBattle(Boss boss)
+    {
+        StartCoroutine(SetupBattle(boss));
     }
 
-
-    public void SetupBattle()
+    public IEnumerator SetupBattle(Boss boss)
     {
-        battleState = BattleState.START;
-        playerHud.SetData();
-        enemyHud.SetData(boss);
-        backgroundImage = background.GetComponent<Image>();
-        backgroundImage.sprite = boss.BattleBackground;
+
+        playerUnit.Clear();
+        enemyUnit.Clear();
 
 
+        playerUnit.Setup();
+        enemyUnit.Setup(boss);
 
-        StartCoroutine(battleDialogBox.TypeDialog($"Your professor {boss.Name} appeared!"));
-        battleState = BattleState.ACTION_SELECTION;
+        background.GetComponent<Image>().sprite = boss.Base.BattleBackground;
+
+        yield return  dialogBox.TypeDialog($"Your professor {boss.Base.Name} appeared!");
+        ActionSelection();
     }
 
 
@@ -72,48 +77,33 @@ public class BattleSystem : MonoBehaviour
         {
             HandleMoveSelection();
         }
-        // else if (battleState == BattleState.PLAYER_TURN)
-        // {
-        //     HandlePlayerTurn();
-        // }
-        // else if (battleState == BattleState.ENEMY_TURN)
-        // {
-        //     HandleEnemyTurn();
-        // }
-        //else if (battleState == BattleState.END)
-        // {
-
-        // }
     }
 
     void ActionSelection()
     {
         battleState = BattleState.ACTION_SELECTION;
-        battleDialogBox.EnableMoveSelector(false);
-        battleDialogBox.EnableDialogText(true);
-        battleDialogBox.EnableActionSelector(true);
+
+        dialogBox.EnableMoveSelector(false);
+        dialogBox.EnableDialogText(true);
+        dialogBox.EnableActionSelector(true);
     }
     void MoveSelection()
     {
         battleState = BattleState.MOVE_SELECTION;
-        battleDialogBox.EnableActionSelector(false);
-        battleDialogBox.EnableDialogText(false);
-        battleDialogBox.EnableMoveSelector(true);
+
+        dialogBox.EnableActionSelector(false);
+        dialogBox.EnableDialogText(false);
+        dialogBox.EnableMoveSelector(true);
     }
 
 
 
-    void PlayerTurn()
+    void BusyDisplay()
     {
-        battleState = BattleState.PLAYER_TURN;
-        battleDialogBox.EnableMoveSelector(false);
-        battleDialogBox.EnableDialogText(true);
-        battleDialogBox.EnableMoveSelector(false);
-    }
-
-    void EnemyTurn()
-    {
-        battleState = BattleState.ENEMY_TURN;
+        battleState = BattleState.BUSY;
+        dialogBox.EnableMoveSelector(false);
+        dialogBox.EnableDialogText(true);
+        dialogBox.EnableMoveSelector(false);
     }
 
 
@@ -121,48 +111,50 @@ public class BattleSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            battleDialogBox.IncrementSelection();
-            battleDialogBox.UpdateActionSelector();
+            dialogBox.IncrementSelection();
+            dialogBox.UpdateActionSelector();
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            battleDialogBox.DecrementSelection();
-            battleDialogBox.UpdateActionSelector();
+            dialogBox.DecrementSelection();
+            dialogBox.UpdateActionSelector();
         }
         else if (Input.GetKeyDown(KeyCode.Return))
         {
-            //Fight
-            if (battleDialogBox.GetChoice() == 0)
+            //fight
+            if (dialogBox.GetChoice() == 0)
             {
-                battleDialogBox.UpdateMoveTexts();
+                dialogBox.UpdateMoveData();
                 MoveSelection();
             }
             //Run
-            else if (battleDialogBox.GetChoice() == 1)
+            else if (dialogBox.GetChoice() == 1)
             {
                 OnBattleQuit();
             }
+            dialogBox.ResetChoice();
         }
     }
 
 
     void HandleMoveSelection()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            battleDialogBox.IncrementSelection();
-            battleDialogBox.UpdateMoveSelector();
+            dialogBox.IncrementSelection();
+            dialogBox.UpdateMoveData();
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            battleDialogBox.DecrementSelection();
-            battleDialogBox.UpdateMoveSelector();
+            dialogBox.DecrementSelection();
+            dialogBox.UpdateMoveData();
         }
         else if (Input.GetKeyDown(KeyCode.Return))
         { 
-                selectedMove = PlayerStats.Instance.Move[battleDialogBox.GetChoice()];
+                chosenMove = PlayerStats.Instance.Move[dialogBox.GetChoice()];
                 if(!turnRunning)
                 StartCoroutine(MakeTurns());
+                dialogBox.ResetChoice();
         }
 
        
@@ -174,15 +166,15 @@ public class BattleSystem : MonoBehaviour
 
     private IEnumerator MakeTurns()
     {
+        BusyDisplay();
         turnRunning = true;
         ///////////////PLAYER TURN///////////////////
-        int damageToDeal = selectedMove.Damage;
-        bool isDead = boss.GetDamage(damageToDeal);
+        int damageToDeal = chosenMove.Damage;
+        bool isDead = enemyUnit.GetDamage(damageToDeal);
 
-        StartCoroutine(BattleHud.ShowAttackSprite(selectedMove.MoveSprite));
-        yield return new WaitForSeconds(2f);
-        StartCoroutine(enemyHud.LowerHealthBar(boss.HealthProcent));
-
+        yield return dialogBox.TypeDialog($"You used attack: {chosenMove.Name}!");
+        yield return BattleHud.ShowAttackSprite(chosenMove.MoveSprite);
+        yield return new WaitForSeconds(1f);
 
         if (isDead)
         {
@@ -192,15 +184,15 @@ public class BattleSystem : MonoBehaviour
         else
         {
             ///////////////BOSS TURN/////////////////////
-            AttackBase chosenAttack = boss.Attack();
+            AttackBase chosenAttack = enemyUnit.Boss.Base.Attack();
             damageToDeal = chosenAttack.Damage;
 
-            bool isPlayerDead = PlayerStats.Instance.GetDamage(damageToDeal);
+            bool isPlayerDead = playerUnit.GetDamage(damageToDeal);
 
             yield return new WaitForSeconds(1f);
-            StartCoroutine(BattleHud.ShowAttackSprite(chosenAttack.AttackSprite));
+            yield return dialogBox.TypeDialog($"{enemyUnit.Boss.Base.Name} used attack: {chosenAttack.Name}!");
+            yield return BattleHud.ShowAttackSprite(chosenAttack.AttackSprite);
             yield return new WaitForSeconds(2f);
-            StartCoroutine(playerHud.LowerHealthBar(PlayerStats.Instance.HealthProcent));
 
 
 
@@ -216,8 +208,8 @@ public class BattleSystem : MonoBehaviour
 
     private IEnumerator HandleLose()
     {
-        StartCoroutine(battleDialogBox.TypeDialog("You Lost the battle!!"));
-        StartCoroutine(playerHud.Kill());
+        yield return dialogBox.TypeDialog("You lost the battle!!");
+        playerUnit.PlayDieAnimation();
         yield return new WaitForSeconds(2f);
         //SOMETHING HERE SHOULD BE??
         //Yees. To a complete stop the game should come here
@@ -226,10 +218,10 @@ public class BattleSystem : MonoBehaviour
 
     private IEnumerator HandleWin()
     {
-        StartCoroutine(battleDialogBox.TypeDialog("You Won the battle!!"));
-        StartCoroutine(enemyHud.Kill());
+        yield return dialogBox.TypeDialog("You Won the battle!!");
+        enemyUnit.PlayDieAnimation();
         yield return new WaitForSeconds(2f);
-        boss.gameObject.SetActive(false);
+        GameObject.Find("Boss").SetActive(false);
         PlayerStats.Instance.AddECTS(30);
         PlayerStats.Instance.AddMaxHP(100);
         PlayerStats.Instance.AddHP(100000);
@@ -237,9 +229,5 @@ public class BattleSystem : MonoBehaviour
 
     }
 
-    public void SetBossData(Boss bossg)
-    {
-        boss = bossg;
-    }
 }
 
