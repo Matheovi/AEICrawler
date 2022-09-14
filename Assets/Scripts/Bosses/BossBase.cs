@@ -41,8 +41,10 @@ public class BossBase : ScriptableObject
     {
         if (possibleAttacks.Count > 0)
         {
-            AttackBase chosenAttack = possibleAttacks.PickRandom();
+            int chosenIndex = UnityEngine.Random.Range(0,PossibleAttacks.Count - 1);
+            AttackBase chosenAttack = possibleAttacks[chosenIndex];
             return chosenAttack;
+          
         }
         else return default;
     }
