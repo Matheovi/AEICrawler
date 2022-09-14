@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Integral
   m_EditorClassIdentifier: 
-  name: 
+  name: Integral
   description: 
   attackSprite: {fileID: 21300000, guid: 5adf00385f00bf94da28453930933116, type: 3}
   damage: 39

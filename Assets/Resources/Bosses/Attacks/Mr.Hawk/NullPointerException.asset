@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: NullPointerException
   m_EditorClassIdentifier: 
-  name: 
+  name: NullPointer Exception
   description: 
   attackSprite: {fileID: 21300000, guid: 8313bf353963ba54db2616261410f241, type: 3}
   damage: 22

@@ -57,6 +57,7 @@ public class BattleUnit : MonoBehaviour
         hud.SetData();
         image.color = originalColor;
         transform.localScale = new Vector3(1, 1, 1);
+        PlayEnterAnimation();
     }
 
     public void PlayEnterAnimation()

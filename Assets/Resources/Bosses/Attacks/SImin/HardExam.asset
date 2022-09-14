@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: HardExam
   m_EditorClassIdentifier: 
-  name: 
+  name: Hard Exam
   description: 
   attackSprite: {fileID: 21300000, guid: 58006f0f9824a2b439b6804d2f776919, type: 3}
   damage: 54

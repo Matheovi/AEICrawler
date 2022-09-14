@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Avadekedavra
   m_EditorClassIdentifier: 
-  name: 
+  name: Avada Kedavra
   description: 
   attackSprite: {fileID: 21300000, guid: 35fffb7e063ff6c4bbf93036c8156503, type: 3}
   damage: 100

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: 2.51
   m_EditorClassIdentifier: 
-  name: 
+  name: 2.51
   description: 
   attackSprite: {fileID: 21300000, guid: 01e6849cb2c4e2d4684e35d551f266ab, type: 3}
   damage: 251

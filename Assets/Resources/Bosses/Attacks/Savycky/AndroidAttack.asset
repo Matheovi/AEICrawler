@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: AndroidAttack
   m_EditorClassIdentifier: 
-  name: 
+  name: Android Army
   description: 
   attackSprite: {fileID: 21300000, guid: 13b942fea9f2f4a43a6f64da07146825, type: 3}
   damage: 63

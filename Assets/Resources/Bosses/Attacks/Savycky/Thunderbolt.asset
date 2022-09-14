@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Thunderbolt
   m_EditorClassIdentifier: 
-  name: 
+  name: Thunderbolt
   description: 
   attackSprite: {fileID: 21300000, guid: de6e8a51c58b1e34e9e48d959a1f86a7, type: 3}
   damage: 34

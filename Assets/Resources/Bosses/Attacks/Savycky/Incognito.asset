@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Incognito
   m_EditorClassIdentifier: 
-  name: 
+  name: Going Incognito
   description: 
   attackSprite: {fileID: 21300000, guid: ca948d795d1e1994dafc1b1ece151ef5, type: 3}
   damage: 69
