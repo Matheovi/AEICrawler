@@ -23,7 +23,7 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
         {
 
             Debug.Log("Not enough ECTS");
-            DialogManager.Instance.ShowDialog();
+           // StartCoroutine(DialogManager.Instance.ShowDialogText("I am not ready to go there yet"));
         }
         else
         {

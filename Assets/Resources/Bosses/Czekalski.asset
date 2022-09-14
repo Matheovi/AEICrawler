@@ -18,7 +18,7 @@ MonoBehaviour:
   damage: 500
   bossNPCSprite: {fileID: 21300000, guid: ecfa18749876a774289b3ba23704991f, type: 3}
   bossBattleImage: {fileID: 21300000, guid: 0007a5cae127f8c42a26204d4fd18aa9, type: 3}
-  bossBattleBackground: {fileID: 0}
+  bossBattleBackground: {fileID: 21300000, guid: 28996cdd30c866246b1902fa005f8da8, type: 3}
   possibleAttacks:
   - {fileID: 11400000, guid: 877cfab7658def34c9760128fc5e1efc, type: 2}
   - {fileID: 11400000, guid: cb9268ea9143144449d095d205832e87, type: 2}
