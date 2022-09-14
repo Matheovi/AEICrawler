@@ -9,6 +9,7 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     [SerializeField] Transform spawnPoint;
     [SerializeField] int amountOfPointsToGo = -1;
     bool isLoading = false;
+    bool isNotified = false;
     Fader fader;
     PlayerController player;
     private void Start()
@@ -17,13 +18,15 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     }
     public void OnTrigger(PlayerController player)
     {
-        if (isLoading) return;
+        if (isLoading || isNotified) return;
         this.player = player;
         if (amountOfPointsToGo > PlayerStats.Instance.ECTS)
         {
-
+            isNotified = true;
             Debug.Log("Not enough ECTS");
-           // StartCoroutine(DialogManager.Instance.ShowDialogText("I am not ready to go there yet"));
+            StartCoroutine(DialogManager.Instance.ShowDialogText("I am not ready to go there yet"));
+            StartCoroutine(NotificationCooldown());
+
         }
         else
         {
@@ -32,6 +35,11 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
         }
     }
 
+    IEnumerator NotificationCooldown()
+    {
+        yield return new WaitForSeconds(5f);
+        isNotified = false;
+    }
 
     IEnumerator SwitchScene(PlayerController player)
     {
