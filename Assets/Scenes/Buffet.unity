@@ -135,8 +135,16 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.93
+      value: -0.92
       objectReference: {fileID: 0}
     - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -175,6 +183,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4536290820812368862, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 360124570, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 4536290820812368862, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_SortingOrder
       value: 225
       objectReference: {fileID: 0}
@@ -182,6 +194,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 143580464, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: -569906890, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: -665984629, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: -550788996, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: -1675338714, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
+    - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: idleAnimSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -1608853680, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
 --- !u!1 &600290334
@@ -248,6 +288,14 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 594454931296009067, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.92
       objectReference: {fileID: 0}
@@ -288,6 +336,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4536290820812368862, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1063774026, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
+    - target: {fileID: 4536290820812368862, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_SortingOrder
       value: 402
       objectReference: {fileID: 0}
@@ -302,27 +354,27 @@ PrefabInstance:
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -24955768, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: 294946289, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -396399166, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: -917954809, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[2]
       value: 
-      objectReference: {fileID: 1725705760, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: 637641618, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -736907097, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: 301081935, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[4]
       value: 
-      objectReference: {fileID: 919780618, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: 1269451047, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[5]
       value: 
-      objectReference: {fileID: -1318002488, guid: 8c9865a000bef1e458054b3e185fb456, type: 3}
+      objectReference: {fileID: 1340168071, guid: 7e52f8586fdea15468d6c5c3f55f56eb, type: 3}
     - target: {fileID: 8732546530763721806, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: idleAnimSprites.Array.data[6]
       value: 
