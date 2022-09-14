@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using DG.Tweening;
-
+using UnityEngine.SceneManagement;
 
 public enum BattleState
 {
@@ -210,10 +210,11 @@ public class BattleSystem : MonoBehaviour
     {
         yield return dialogBox.TypeDialog("You lost the battle!!");
         playerUnit.PlayDieAnimation();
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
         //SOMETHING HERE SHOULD BE??
         //Yees. To a complete stop the game should come here
-        OnBattleQuit();
+        yield return SceneManager.LoadSceneAsync(0);
+        //OnBattleQuit();
     }
 
     private IEnumerator HandleWin()
