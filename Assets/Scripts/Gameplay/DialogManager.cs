@@ -26,15 +26,20 @@ public class DialogManager : MonoBehaviour
     }
 
 
-    public IEnumerator ShowDialogText(string text, bool waitForInput = true, bool autoClose = true,
+    public IEnumerator ShowDialogText(string text, Sprite dialogSprite = null, bool waitForInput = true, bool autoClose = true,
     List<string> choices = null, Action<int> onChoiceSelected = null)
     {
         onDialogStart?.Invoke();
         dialogBox.SetActive(true);
 
+        if (dialogSprite != null)
+        {
+            dialogImage.SetActive(true);
+            dialogImage.GetComponent<Image>().sprite = dialogSprite;
+        }
 
-        
-        
+
+
         yield return TypeDialog(text);
         if (waitForInput)
         {

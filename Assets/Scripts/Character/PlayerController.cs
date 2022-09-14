@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask solidObjectsLayer;
     public LayerMask interactableLayer;
 
-    public event Action<Boss> onEncounter;
+    //public event Action<Boss> onEncounter;
 
 
     float horizontalInput;

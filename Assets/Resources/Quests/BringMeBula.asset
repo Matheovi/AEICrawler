@@ -10,16 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c36844fc89f473449afebf6247045e4b, type: 3}
-  m_Name: BringYourId
+  m_Name: BringMeBula
   m_EditorClassIdentifier: 
-  name: Bring Your ID
+  name: "Bring Me Bu\u0142a"
   description: You have to bring your ID to zielu
   startDialogue:
-    lines:
-    - Hello!.... Hehe
-    - Do you have your ID with you?
-    - If not, first you have to go to the deans office to get one
-    - Go ahead!!
+    lines: []
   inProgressDialogue:
     lines:
     - What are you waiting for? Youll get old... like me....
