@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Bombolot
   m_EditorClassIdentifier: 
-  name: 
+  name: Dropping Fat Man
   description: 
   attackSprite: {fileID: 21300000, guid: e9607bd17f380c644bea6ced94d7f71c, type: 3}
   damage: 55

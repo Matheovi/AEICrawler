@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: Cruciatus
   m_EditorClassIdentifier: 
-  name: 
+  name: Crucio
   description: 
   attackSprite: {fileID: 21300000, guid: e997d633a5672e248804075c70b6ba78, type: 3}
   damage: 35

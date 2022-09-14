@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcbc30853508094a94c43f5bc02ac6d, type: 3}
   m_Name: AFK
   m_EditorClassIdentifier: 
-  name: 
+  name: AFK
   description: 
   attackSprite: {fileID: 21300000, guid: 85b60c1ea7e472f4d9a0721b891e7d8d, type: 3}
   damage: 44
