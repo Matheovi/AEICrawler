@@ -213,8 +213,9 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(5f);
         //SOMETHING HERE SHOULD BE??
         //Yees. To a complete stop the game should come here
+        
         yield return SceneManager.LoadSceneAsync(0);
-        //OnBattleQuit();
+        OnBattleQuit();
     }
 
     private IEnumerator HandleWin()
