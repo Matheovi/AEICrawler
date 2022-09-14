@@ -9,6 +9,7 @@ public class Boss : MonoBehaviour
 
 
     [SerializeField] BossBase boss;
+    [SerializeField] int targetSize;
     public BossBase Base => boss;
 
     SpriteRenderer sprite_renderer;
@@ -26,6 +27,13 @@ public class Boss : MonoBehaviour
     {
         sprite_renderer.sprite = boss.NPCSprite;
         transform.localScale = new Vector3(1,1,1);
+
+
+        var bounds = GetComponent<SpriteRenderer>().sprite.bounds;
+        var factor = targetSize / bounds.size.y;
+        transform.localScale = new Vector3(factor, factor, factor);
+
+
         //sprite_renderer.enabled = true;
         gameObject.GetComponent<BoxCollider2D>().size = sprite_renderer.sprite.bounds.size;
 
