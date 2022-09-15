@@ -4400,5 +4400,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb83e901f659f6147ba6aeff257a2003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleJoke: []
+  possibleJoke:
+  - Do I like jokes? More or less... You know, more or less is a very british expression.
+    I once got through border control quicker thanks to it
+  - Can February March? No, but April May.
+  - "So what if I don\u2019t know what apocalypse means? It\u2019s not the end of
+    the world!"
+  - My friend drove his expensive car into a tree and found out how his Mercedes
+    bends.
+  - Never discuss infinity with a mathematician, they can go on about it forever.
+  - German sausage jokes are just the wurst.
+  - I'm reading a book about anti-gravity. It's impossible to put down!
   NPCDialogSprite: {fileID: 21300000, guid: fe14dae74df25dd4b849d094371de969, type: 3}
