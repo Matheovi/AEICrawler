@@ -5579,9 +5579,41 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4661399455986722277, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Size.y
+      value: 2.00953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661399455986722277, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.31726503
+      objectReference: {fileID: 0}
     - target: {fileID: 7042673399200189292, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+--- !u!1 &3200230430746976646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7042673399200189292, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+  m_PrefabInstance: {fileID: 3200230430746976645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3200230430746976647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3200230430746976646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f341f5716667a4aafb5b1f76617811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: fafcdaad89fe385449cc29782f565962, type: 2}
+  dialog:
+    lines:
+    - Hello new student
+    - Here is your ID
+    - You received ID card!

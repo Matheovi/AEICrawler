@@ -8,8 +8,10 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     [SerializeField] int sceneToLoad = -1;
     [SerializeField] Transform spawnPoint;
     [SerializeField] int amountOfPointsToGo = -1;
+    [SerializeField] ItemBase requiredItem = null;
     bool isLoading = false;
     bool isNotified = false;
+    bool isNotifiedAboutLackOfItem = false;
     Fader fader;
     PlayerController player;
     private void Start()
@@ -18,27 +20,40 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     }
     public void OnTrigger(PlayerController player)
     {
-        if (isLoading || isNotified) return;
+        if(requiredItem != null)
+        {
+            if (isNotifiedAboutLackOfItem) return;
+            if(!Inventory.GetInventory().CheckIfExists(requiredItem))
+            {
+                isNotifiedAboutLackOfItem = true;
+                StartCoroutine(DialogManager.Instance.ShowDialogText("You haven't got your student ID, so you cant enter floors"));
+                StartCoroutine(NotificationCooldown(15f));
+                return;
+            }
+        }
+        if (isLoading || isNotified || isNotifiedAboutLackOfItem) return;
         this.player = player;
         if (amountOfPointsToGo > PlayerStats.Instance.ECTS)
         {
             isNotified = true;
             Debug.Log("Not enough ECTS");
             StartCoroutine(DialogManager.Instance.ShowDialogText("I am not ready to go there yet"));
-            StartCoroutine(NotificationCooldown());
+            StartCoroutine(NotificationCooldown(5f));
 
         }
         else
         {
             isLoading = !isLoading;
+
             StartCoroutine(SwitchScene(player));
         }
     }
 
-    IEnumerator NotificationCooldown()
+    IEnumerator NotificationCooldown(float time)
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(time);
         isNotified = false;
+        isNotifiedAboutLackOfItem = false;
     }
 
     IEnumerator SwitchScene(PlayerController player)

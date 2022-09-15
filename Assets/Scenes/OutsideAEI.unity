@@ -19260,12 +19260,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: questToStart
+      value: 
+      objectReference: {fileID: 11400000, guid: 49f09fd109e605c40bc7370798dd1e52, type: 2}
+    - target: {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: NPCDialogSprite
       value: 
       objectReference: {fileID: 21300000, guid: 837beb4ba1857f4448d28c418f421295, type: 3}
     - target: {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: dialog.lines.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: dialog.lines.Array.data[0]

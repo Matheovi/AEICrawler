@@ -11,7 +11,15 @@ public class NPCController : MonoBehaviour, Interactable
 
     [SerializeField] Sprite NPCDialogSprite;
     Quest activeQuest;
-    
+
+    private void Awake()
+    {
+        if(PlayerStats.Instance.Completed.Contains(questToStart))
+        {
+            questToStart = null;
+        }
+    }
+
     public IEnumerator Interact(Transform initiator)
     {
         if (questToStart != null)

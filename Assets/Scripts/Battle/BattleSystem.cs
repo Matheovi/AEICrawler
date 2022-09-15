@@ -227,6 +227,7 @@ public class BattleSystem : MonoBehaviour
         PlayerStats.Instance.AddECTS(30);
         PlayerStats.Instance.AddMaxHP(100);
         PlayerStats.Instance.AddHP(100000);
+        PlayerStats.Instance.Reached = SceneManager.GetActiveScene().buildIndex + 1;
         OnBattleQuit();
 
     }

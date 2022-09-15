@@ -15,13 +15,18 @@ MonoBehaviour:
   name: "Bring Me Bu\u0142a"
   description: You have to bring your ID to zielu
   startDialogue:
-    lines: []
+    lines:
+    - Can you bring me a chicken sandwich?
+    - Its right there, in the cafeteria
+    - 'Go get it '
+    - Im staaarving!!!!
   inProgressDialogue:
     lines:
-    - What are you waiting for? Youll get old... like me....
+    - Man, I'm starving!!! Go get it...
   completedDialogue:
     lines:
     - Hurray!!!!
-    - Youve did it
-  requiredItem: {fileID: 11400000, guid: fafcdaad89fe385449cc29782f565962, type: 2}
+    - Youve did it!
+    - Omnomnom, it's so delicious
+  requiredItem: {fileID: 11400000, guid: 8768d324ef080e34fa5a6f65dcf7d223, type: 2}
   rewardItem: {fileID: 11400000, guid: ebcd8820931077c42916e94ec17393c3, type: 2}

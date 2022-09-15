@@ -190,6 +190,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 225
       objectReference: {fileID: 0}
+    - target: {fileID: 4661399455986722277, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Size.y
+      value: 2.4017048
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661399455986722277, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5133524
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661399455986722277, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7042673399200189292, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -222,7 +234,8 @@ PrefabInstance:
       propertyPath: idleAnimSprites.Array.data[5]
       value: 
       objectReference: {fileID: -1608853680, guid: 45cd4891ed633244b9cc7ee313b0b0b3, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3806120031230836, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
 --- !u!1 &600290334
 GameObject:
@@ -272,6 +285,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &962822758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7042673399200189292, guid: a5cf54c4bdbc0a24981e66ffa48e12e3, type: 3}
+  m_PrefabInstance: {fileID: 112880397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &962822759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962822758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f341f5716667a4aafb5b1f76617811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 8768d324ef080e34fa5a6f65dcf7d223, type: 2}
+  dialog:
+    lines:
+    - 'Hello! Thanks '
+    - "Here Is Your Bu\u0142a"
 --- !u!1001 &1430794236
 PrefabInstance:
   m_ObjectHideFlags: 0

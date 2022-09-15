@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3063370657fc3a6469e538d424f9e343, type: 3}
   m_Name: Bula
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  icon: {fileID: 0}
+  name: Bula
+  description: This is chicken sandwich
+  icon: {fileID: 304400657853117738, guid: 6fb49a1cef5ef6e428d30e8bb7cfcb9f, type: 3}

@@ -20,6 +20,7 @@ public class BossBase : ScriptableObject
     [SerializeField] Sprite bossNPCSprite;
     [SerializeField] Sprite bossBattleImage;
     [SerializeField] Sprite bossBattleBackground;
+    //[SerializeField] MoveBase 
 
     
 

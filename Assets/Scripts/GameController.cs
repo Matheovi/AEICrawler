@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
     {
         Application.targetFrameRate = 30;
         
+
+
         battleSystem.OnBattleQuit += ()=> {
             gameState = GameState.FreeRoam;
             battleSystem.gameObject.SetActive(false);
